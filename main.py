@@ -26,7 +26,7 @@ def main():
 
     clock = pygame.time.Clock()
 
-    flags = pygame.HWACCEL | pygame.HWSURFACE | pygame.OPENGL | pygame.DOUBLEBUF
+    flags = pygame.HWACCEL | pygame.HWSURFACE | pygame.OPENGL | pygame.DOUBLEBUF | pygame.SCALED
     flags |= pygame.FULLSCREEN
     do_vsync = 1
     if "Linux" in get_os():
